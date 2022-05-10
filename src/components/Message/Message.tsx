@@ -1,4 +1,4 @@
-import React, { useCallback, useContext, useEffect, useMemo, useRef } from 'react';
+import React, { useCallback, useContext, useEffect, useRef } from 'react';
 import './Message.css';
 import { MessageType } from '../../types';
 import SuccessIcon from '../../images/success.png';

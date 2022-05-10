@@ -1,8 +1,7 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { unmountComponentAtNode } from 'react-dom';
 import App from './App';
-import ReactTestUtils from 'react-dom/test-utils';
 
 let container: Element | null = null;
 beforeEach(() => {
@@ -22,7 +21,4 @@ afterEach(() => {
 
 test('renders learn react link', () => {
   render(<App />);
-  // const linkElement = screen.getByText(/learn react/i);
-  // expect(linkElement).toBeInTheDocument();
-  // ReactTestUtils.Simulate.
 });
